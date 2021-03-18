@@ -14,6 +14,7 @@
   animation-name:myMove ;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
   
 }
 @keyframes myMove {position: relative;
