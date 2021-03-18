@@ -24,7 +24,9 @@ code {
        top:250px ;
        left: 300px;
   animation-name:myMove ;
-  animation-duration: 5s
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes myMove {position: relative;
     0% { left: 0px;top: 0px; border-radius: 0 0 0 0;}
