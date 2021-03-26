@@ -8,8 +8,8 @@ body{
   margin: auto;
 }
 .list{ background-color: darkcyan;
-       height: 200px;
-       width: 200px;
+       height: auto;
+       width: auto;
        margin-top:250px ;
        margin-left: 650px;
        position: absolute;

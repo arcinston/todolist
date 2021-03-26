@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import Button from "./Button";
+ReactDOM.render(
+  <div>
+    <App />
+    <Button />
+  </div>,
+  document.getElementById("root")
+);
